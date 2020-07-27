@@ -1,26 +1,37 @@
 import React from 'react'
-//import { makeStyles } from '@material-ui/core/styles';
-import { AppBar, Tabs, Tab} from '@material-ui/core'
+import { AppBar, Tabs, Tab, Button} from '@material-ui/core'
 import SwipeableViews from 'react-swipeable-views';
-import Contact from './Contact'
-import About from './About'
+import Nollning from './Nollning'
 import Information from './Information';
 
+
+const text = {
+  swe: "English",
+  eng: "Swedish"
+}
+
 function Home(props){
+
+  /*language*/
+  const [lang, setLang] = React.useState("swe");
+
+  const switchLang = () => {
+    lang === "swe" ? setLang("eng") : setLang("swe");
+  };
+
+  /*Page switching*/
   const {match, history} = props;
   const {params} = match;
   const {page} = params;
 
   const tabNameToIndex = {
-    0: "about",
-    1: "contact",
-    2: "information"
+    0: "nollning",
+    1: "info"
   };
 
   const indexToTabName = {
-    about: 0,
-    contact: 1,
-    information: 2,
+    nollning: 0,
+    info: 1,
   };
 
   const [selectedTab, setSelectedTab] = React.useState(indexToTabName[page]);
@@ -35,26 +46,28 @@ function Home(props){
     setSelectedTab(index);
   };
 
+  
+
   return (
     <>
       <AppBar position="sticky" color="default">
+      <Button onClick={switchLang}>Switch to {text[lang]}</Button>
         <Tabs 
         value={selectedTab} 
         onChange={handleChange}
-        indicatorColor="secondary"
-        textColor="secondary"
+        indicatorColor="primary"
+        textColor="primary"
         centered
         selectionFollowsFocus={true}
+
         >
-          <Tab label="About" />
-          <Tab label="Contact" />
+          <Tab label="Nollning" />
           <Tab label="Information" />
         </Tabs>
       </AppBar>
       <SwipeableViews className="ok" enableMouseEvents index={selectedTab} onChangeIndex={handleChangeIndex}>
-        <div>{ selectedTab === 0 && <About/> }</div>
-        <div>{ selectedTab === 1 && <Contact/>}</div>
-        <div>{ selectedTab === 2 && <Information/>}</div>
+        <div>{ selectedTab === 0 && <Nollning lang={lang}/> }</div>
+        <div>{ selectedTab === 1 && <Information lang={lang}/>}</div>
       </SwipeableViews>
     </>
   )
