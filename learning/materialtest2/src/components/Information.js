@@ -39,7 +39,7 @@ const text = {
                 one: ["Högtidsdräkt", "Långklänning eller frack, men en mörk kostym duger oftast. Fråga arrangören om du är osäker. "],
                 two: ["Mörk kostym", "En mörk kostym (svart, grå, brun eller mörkblå), eller en finare klänning eller en kjol med en top."],
                 three: ["Bruten kavaj", "Finare vardagskläder. En kavaj kombinerat med något annat, eller bara något som du känner dig snygg i."],
-                four: ["Temaenligt", "Visa sittningar har teman som du måste klä dig efter. Detta är väldigt sällan en strikt klädkod; följ temat så gott du kan!"]
+                four: ["Temaenligt", "Vissa sittningar har teman som du måste klä dig efter. Detta är väldigt sällan en strikt klädkod; följ temat så gott du kan!"]
             }
         },
         feel: {
