@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom'
-
+import { createMuiTheme,makeStyles,responsiveFontSizes,ThemeProvider } from '@material-ui/core/styles';
 import {Paper} from '@material-ui/core'
 import Home from './components/Home'
 
