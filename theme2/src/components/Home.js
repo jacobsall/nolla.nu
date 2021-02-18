@@ -51,7 +51,7 @@ function Home(props){
   };
 
   const handleChangeIndex = (index) => {
-    history.push(`/${tabNameToIndex[index]}`)
+    history.push(`/2020/${tabNameToIndex[index]}`)
     setSelectedTab(index);
   };
 
