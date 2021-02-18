@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b254555.chunk.css",
+    "main.js": "/static/js/main.86fdd918.chunk.js",
+    "main.js.map": "/static/js/main.86fdd918.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3724baa1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3724baa1.js.map",
+    "static/js/2.19891d66.chunk.js": "/static/js/2.19891d66.chunk.js",
+    "static/js/2.19891d66.chunk.js.map": "/static/js/2.19891d66.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c109bfda73adda808cfee98b5d65d015.js": "/precache-manifest.c109bfda73adda808cfee98b5d65d015.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5b254555.chunk.css.map": "/static/css/main.5b254555.chunk.css.map",
+    "static/js/2.19891d66.chunk.js.LICENSE.txt": "/static/js/2.19891d66.chunk.js.LICENSE.txt",
+    "static/media/D-logo.png": "/static/media/D-logo.84c84e37.png",
+    "static/media/LTH.jpg": "/static/media/LTH.1ca6bd59.jpg",
+    "static/media/App.css": "/static/media/Shadowfield DEMO.a8a1d631.otf",
+    "static/media/Skärmklipp.PNG": "/static/media/Skärmklipp.034674d9.PNG",
+    "static/media/TLTH-01.jpg": "/static/media/TLTH-01.3e23cd94.jpg",
+    "static/media/delphi_vy.jpg": "/static/media/delphi_vy.7dd8a52b.jpg",
+    "static/media/g.jpg": "/static/media/g.8fc0b44a.jpg",
+    "static/media/j.jpg": "/static/media/j.428d27ef.jpg",
+    "static/media/j2.jpg": "/static/media/j2.48832604.jpg",
+    "static/media/logo2.png": "/static/media/logo2.92e3650a.png",
+    "static/media/m.jpg": "/static/media/m.257d2666.jpg",
+    "static/media/m2.jpg": "/static/media/m2.ac5b622c.jpg",
+    "static/media/n.jpg": "/static/media/n.8d597854.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3724baa1.js",
+    "static/js/2.19891d66.chunk.js",
+    "static/css/main.5b254555.chunk.css",
+    "static/js/main.86fdd918.chunk.js"
+  ]
+}
