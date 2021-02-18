@@ -29,8 +29,8 @@ function App() {
     <ThemeProvider theme={theme}>
       <Paper className={classes.container}>
         <Switch>
-          <Redirect exact from="/" to="/nollning"/>
-          <Route exact path="/:page?" render={props => <Home {...props} />} />
+          <Redirect exact from="/2020" to="/2020/nollning"/>
+          <Route exact path="/2020/:page?" render={props => <Home {...props} />} />
         </Switch>
       </Paper>
     </ThemeProvider>
